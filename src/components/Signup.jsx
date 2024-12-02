@@ -41,7 +41,8 @@ export default function Signup() {
                 </h2>
                 <p className='mt-2 text-center text-base text-black/60'>
                     Already have an account?&nbsp;
-                    <Link className='font-medium text-primary transition-all duration-200 hover:underline'>
+                    <Link className='font-medium text-primary transition-all duration-200 hover:underline'
+                    to={"/login"}>
                         Sign In
                     </Link>
                 </p>

@@ -44,7 +44,8 @@ export default function Login() {
             </h2>
             <p className='mt-2 text-center text-base text-black/60'>
                 Don&apos;t have any account?&nbsp;
-                 <Link className='font-medium text-primary transition-all duration-200 hover:underline'>
+                 <Link className='font-medium text-primary transition-all duration-200 hover:underline'
+                 to={"/signup"}>
                     Sign Up
                  </Link>
             </p>
